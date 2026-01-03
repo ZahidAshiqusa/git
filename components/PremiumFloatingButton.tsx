@@ -9,7 +9,7 @@ export default function PremiumFloatingButton() {
   const [isExpanded, setIsExpanded] = useState(false);
   const upgradeUrl =
     process.env.NEXT_PUBLIC_PAID_VERION ||
-    "https://www.buymeacoffee.com/reactbd";
+    "https://wa.me/923299931199";
 
   return (
     <>
@@ -91,10 +91,10 @@ export default function PremiumFloatingButton() {
                     </motion.div>
                     <div>
                       <h3 className="text-xl font-bold text-white">
-                        Go Premium
+                        Need Website?
                       </h3>
                       <p className="text-sm text-purple-100">
-                        Unlock All Features
+                        Get Website Like This On Cheap Prices
                       </p>
                     </div>
                   </div>
@@ -129,7 +129,7 @@ export default function PremiumFloatingButton() {
                     rel="noopener noreferrer"
                     className="block w-full bg-white text-purple-600 font-semibold py-3 px-6 rounded-xl hover:bg-purple-50 transition-all shadow-lg hover:shadow-xl hover:scale-105 transform text-center"
                   >
-                    Upgrade Now
+                    Get Now
                   </Link>
 
                   <p className="text-xs text-purple-100 text-center">
