@@ -59,7 +59,7 @@ const AboutPage = () => {
     {
       name: "Choudhary Adnan",
       role: "CEO & Founder",
-      image: "/images/team/ceo.jpg",
+      image: "https://files.catbox.moe/gkrf8l.jpg",
       description: "Visionary leader with 4+ years in e-commerce",
     },
     {
