@@ -521,7 +521,7 @@ const PrivacyPage = () => {
                     href="mailto:privacy@shopcart.com"
                     className="text-shop_light_green hover:underline"
                   >
-                    privacy@shopcart.com
+                    adnan7store@gmail.com
                   </a>
                 </p>
               </CardContent>
@@ -537,7 +537,7 @@ const PrivacyPage = () => {
             <div className="flex items-center justify-center gap-2 mb-4">
               <Clock className="w-4 h-4 text-shop_light_green" />
               <p className="text-sm text-light-text">
-                This privacy policy was last updated on January 15, 2024
+                This privacy policy was last updated on January 5, 2026
               </p>
             </div>
             <p className="text-xs text-light-text">
