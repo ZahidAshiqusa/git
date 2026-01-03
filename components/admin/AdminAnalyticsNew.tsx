@@ -461,11 +461,12 @@ const AdminAnalytics = () => {
                       <YAxis />
                       <Tooltip
                         formatter={(value, name) => [
-                          name === "revenue"
-                            ? `$${value.toLocaleString()}`
-                            : value,
-                          name === "revenue" ? "Revenue" : "Sales",
-                        ]}
+  name === "revenue"
+    ? `$${Number(value ?? 0).toLocaleString()}`
+    : value ?? 0,
+  name === "revenue" ? "Revenue" : "Sales",
+]}
+
                       />
                       <Bar dataKey="revenue" fill="#10B981" name="revenue" />
                     </BarChart>
