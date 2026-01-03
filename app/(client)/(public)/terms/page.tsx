@@ -281,7 +281,7 @@ const TermsPage = () => {
                     href="mailto:legal@shopcart.com"
                     className="text-shop_light_green hover:underline"
                   >
-                    legal@shopcart.com
+                    adnan7store@gmail.com
                   </a>
                 </p>
               </CardContent>
