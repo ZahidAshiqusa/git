@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { Product, Category } from "@/sanity.types";
 import { urlFor } from "@/sanity/lib/image";
 
-const BASE_URL = "https://shopcartpro.reactbd.org";
+const BASE_URL = "https://zaidpage16.vercel.app";
 
 /**
  * Generate metadata for product pages
@@ -304,7 +304,7 @@ export function getCanonicalUrl(path: string): string {
  */
 export function generateHomeMetadata(): Metadata {
   return {
-    title: "ShopCart - Your Trusted Online Shopping Destination",
+    title: "Zaid Ashiq - Your Trusted Online Shopping Destination",
     description:
       "Discover amazing products at ShopCart, your trusted online shopping destination for quality items and exceptional customer service. Shop electronics, fashion, home goods and more with fast delivery.",
     keywords: [
@@ -320,7 +320,7 @@ export function generateHomeMetadata(): Metadata {
     openGraph: {
       type: "website",
       url: BASE_URL,
-      title: "ShopCart - Your Trusted Online Shopping Destination",
+      title: "Zaid Ashiq - Your Trusted Online Shopping Destination",
       description:
         "Discover amazing products at ShopCart. Shop electronics, fashion, home goods and more with fast delivery.",
       images: [
@@ -334,7 +334,7 @@ export function generateHomeMetadata(): Metadata {
     },
     twitter: {
       card: "summary_large_image",
-      title: "ShopCart - Your Trusted Online Shopping Destination",
+      title: "Zaid Ashiq - Your Trusted Online Shopping Destination",
       description:
         "Discover amazing products at ShopCart. Shop electronics, fashion, home goods and more.",
       images: ["/og-image.jpg"],
