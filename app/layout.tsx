@@ -28,13 +28,13 @@ const opensans = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://shopcartpro.reactbd.org"),
+  metadataBase: new URL("https://zaidpag16.vercel.app"),
   title: {
-    template: "%s | ShopCart - Premium Online Shopping",
-    default: "ShopCart - Your Trusted Online Shopping Destination",
+    template: "%s | Zaid Ashiq - Premium Online Shopping",
+    default: "Zaid Ashiq - Your Trusted Online Shopping Destination",
   },
   description:
-    "Discover amazing products at ShopCart, your trusted online shopping destination for quality items and exceptional customer service. Shop electronics, fashion, home goods and more with fast delivery.",
+    "Discover amazing products at Zaid Ashiq, your trusted online shopping destination for quality items and exceptional customer service. Shop electronics, fashion, home goods and more with fast delivery.",
   keywords: [
     "online shopping",
     "e-commerce",
@@ -47,9 +47,9 @@ export const metadata: Metadata = {
     "discounts",
     "ShopCart",
   ],
-  authors: [{ name: "ShopCart" }],
-  creator: "ShopCart",
-  publisher: "ShopCart",
+  authors: [{ name: "Ad7store" }],
+  creator: "zaid ashiq",
+  publisher: "zaid ashiq",
   formatDetection: {
     email: false,
     address: false,
@@ -58,9 +58,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://shopcartpro.reactbd.org",
+    url: "https://zaidpage16.vercel.app",
     siteName: "ShopCart",
-    title: "ShopCart - Your Trusted Online Shopping Destination",
+    title: "Zaid Ashiq - Your Trusted Online Shopping Destination",
     description:
       "Discover amazing products at ShopCart, your trusted online shopping destination for quality items and exceptional customer service.",
     images: [
