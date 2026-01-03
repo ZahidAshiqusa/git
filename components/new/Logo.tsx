@@ -21,7 +21,7 @@ const Logo = ({ className, variant = "default" }: Props) => {
           {/* Cart Icon with Creative Styling (smaller) */}
           <div className="relative">
             <div className="absolute -top-0.5 -right-0.5 w-2 h-2 bg-shop_orange rounded-full animate-pulse group-hover:bg-shop_light_green hoverEffect"></div>
-            <ShoppingCart
+            <AD7STORE
               className="w-5 h-5 text-shop_dark_green group-hover:text-shop_light_green hoverEffect transform group-hover:scale-110"
               strokeWidth={2.5}
             />
@@ -58,7 +58,7 @@ const Logo = ({ className, variant = "default" }: Props) => {
         {/* Cart Icon with Creative Styling */}
         <div className="relative">
           <div className="absolute -top-1 -right-1 w-3 h-3 bg-shop_orange rounded-full animate-pulse group-hover:bg-shop_light_green hoverEffect"></div>
-          <ShoppingCart
+          <AD7STORE
             className="w-8 h-8 text-shop_dark_green group-hover:text-shop_light_green hoverEffect transform group-hover:scale-110"
             strokeWidth={2.5}
           />
